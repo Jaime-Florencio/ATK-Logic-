@@ -11,7 +11,7 @@
 
 ---
 
-## 🗂️ Estrutura sugerida
+## 🗂️ Estrutura 
 
 ```
 atk-logic-notes/
@@ -41,8 +41,6 @@ atk-logic-notes/
     ├── config-panel.png
     └── decode-uart.png
 ```
-
-> **Dica**: se os arquivos de captura forem grandes, considere usar *Git LFS*.
 
 ---
 
