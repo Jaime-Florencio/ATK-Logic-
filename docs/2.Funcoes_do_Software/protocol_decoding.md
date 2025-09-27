@@ -62,14 +62,15 @@ Essa tabela exibe:
   Na interface **Protocol Settings**, na parte inferior, é possível definir a região
   de decodificação dos dados configurando os marcadores *Start* e *End*.  
   Isso ajuda a economizar tempo ao limitar a análise apenas ao trecho desejado.
-  
-  ![Resultados da Decodificação](../assets/protocol_decode_result.png)
+  ![Mapeamento de Canais](../assets/protocol_channel_mapping.png)
   
   - **Filtragem dos dados na forma de onda**:  
   Clique no botão **Protocol Settings** em **Opções do Canal** (Channel Options).  
   Em **Show**, selecione apenas os dados decodificados que deseja exibir.  
   Isso simplifica a interface da forma de onda, deixando visíveis apenas as
   informações relevantes.  
+  ![Ajustes de Parâmetros](../assets/protocol_parameter_settings.png)
+  ![Resultados da Decodificação](../assets/protocol_decode_result.png)
 
 ---
 
