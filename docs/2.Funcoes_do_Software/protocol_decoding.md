@@ -55,9 +55,6 @@ Essa tabela exibe:
 
 🔎 Essa visão detalhada é útil para depuração precisa, pois permite correlacionar o tempo exato de cada bit com a representação lógica e os caracteres recebidos/enviados.
 
-
-![Mapeamento de Canais](../assets/protocol_channel_mapping.png)
-
 - **Especificar região de decodificação**:  
   Na interface **Protocol Settings**, na parte inferior, é possível definir a região
   de decodificação dos dados configurando os marcadores *Start* e *End*.  
@@ -70,6 +67,7 @@ Essa tabela exibe:
   Isso simplifica a interface da forma de onda, deixando visíveis apenas as
   informações relevantes.  
   ![Ajustes de Parâmetros](../assets/protocol_parameter_settings.png)
+
   ![Resultados da Decodificação](../assets/protocol_decode_result.png)
 
 ---
