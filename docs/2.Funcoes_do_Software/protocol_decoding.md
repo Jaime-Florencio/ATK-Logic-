@@ -10,9 +10,7 @@ O ATK-Logic permite adicionar protocolos de comunicação para decodificação d
 Na barra lateral direita do software, clique em **Protocol Decoding → Protocol**.  
 Será exibida a lista de protocolos suportados. Passe o mouse sobre cada um para ver a descrição,  
 ou clique no nome para abrir a interface de configuração.
-
 ![Ícone para adicionar protocolo](../assets/protocol_add_icon.png)
-
 ![Ícone para adicionar protocolo](../assets/protocol_selection_uart.png)
 
 ---
@@ -59,16 +57,16 @@ Essa tabela exibe:
   Na interface **Protocol Settings**, na parte inferior, é possível definir a região
   de decodificação dos dados configurando os marcadores *Start* e *End*.  
   Isso ajuda a economizar tempo ao limitar a análise apenas ao trecho desejado.
-  ![Mapeamento de Canais](../assets/protocol_channel_mapping.png)
+![Mapeamento de Canais](../assets/protocol_channel_mapping.png)
   
   - **Filtragem dos dados na forma de onda**:  
   Clique no botão **Protocol Settings** em **Opções do Canal** (Channel Options).  
   Em **Show**, selecione apenas os dados decodificados que deseja exibir.  
   Isso simplifica a interface da forma de onda, deixando visíveis apenas as
   informações relevantes.  
-  ![Ajustes de Parâmetros](../assets/protocol_parameter_settings.png)
+![Ajustes de Parâmetros](../assets/protocol_parameter_settings.png)
 
-  ![Resultados da Decodificação](../assets/protocol_decode_result.png)
+![Resultados da Decodificação](../assets/protocol_decode_result.png)
 
 ---
 
