@@ -71,53 +71,60 @@ Essa tabela exibe:
 
 ![Resultados da Decodificação](../assets/protocol_decode_result.png)
 
----
+- **Bloqueio da Linha de Protocolo**:  
+  Por padrão, as linhas de protocolo se adaptam automaticamente para exibir os
+  dados decodificados e, se não houver protocolo na área de forma de onda,
+  essas linhas são ocultadas.  
+  Porém, ao ativar a opção de **bloqueio da linha**, a posição das linhas de
+  protocolo permanece fixa e visível, mesmo quando não há protocolo exibido.  
 
-### 4. Ajuste de parâmetros
-Defina parâmetros como baud rate, polaridade de clock, modo de amostragem, entre outros.
+  ![Bloqueio da Linha de Protocolo](../assets/protocol_row_lock.png)
 
-![Ajustes de Parâmetros](../assets/protocol_parameter_settings.png)
+- **Exibição de listas de resultados decodificados**:  
+  Ao adicionar múltiplos protocolos simultaneamente (por exemplo, **UART** e **SPI**),
+  os dados decodificados podem não aparecer todos na mesma lista.  
+  Para simplificar a visualização, é possível escolher quais protocolos exibir indo em:  
+  **Protocol Decoding** -> **Data** -> **More**.  
 
----
+  ![Exibição de Resultados Múltiplos](../assets/protocol_multi_results.png)
 
-### 5. Resultados da decodificação
-Os dados decodificados serão exibidos em tabela junto às formas de onda, permitindo correlacionar bits e bytes com o sinal capturado.
+- **Filtragem dos resultados decodificados**:  
+  Por padrão, os resultados decodificados são exibidos com todas as informações
+  do protocolo selecionado. Para simplificar a lista, é possível escolher quais
+  tipos de dados exibir em:  
+  **Protocol Decoding** -> **Data** -> **More** -> **Display Rows**.  
 
-![Resultados da Decodificação](../assets/protocol_decode_result.png)
+  💡 **Dica útil**: ao dar um **duplo clique** em uma linha da lista, o software
+  navega rapidamente até o ponto correspondente na forma de onda, facilitando
+  a análise.  
 
----
+  ![Filtragem de Resultados Decodificados](../assets/protocol_result_filter.png)
 
-### 6. Seleção de região
-É possível aplicar a decodificação apenas em uma parte da captura, delimitando regiões específicas.
+- **Busca nos resultados decodificados**:  
+  É possível pesquisar diretamente dentro da lista de resultados decodificados,
+  digitando o conteúdo desejado na caixa de busca (**não diferencia maiúsculas
+  de minúsculas**).  
 
-![Seleção de Região](../assets/protocol_region_selection.png)
+  O recurso suporta:  
+  - Pesquisa por **tipo** (ex.: RX data, TX data, RX bits).  
+  - Pesquisa por **conteúdo da coluna Data** (ex.: "Start bit", "1", "0", caracteres ASCII).  
+  - **Sintaxe avançada de busca**, permitindo filtros mais refinados.  
 
----
+  ![Busca em Resultados Decodificados](../assets/protocol_result_search.png)
 
-### 7. Opções de filtragem
-Filtre eventos ou dados para visualizar apenas informações relevantes durante a análise.
+- **Busca avançada com sintaxe**:  
+  O ATK-Logic suporta operadores especiais para refinar a pesquisa nos resultados
+  decodificados:  
 
-![Opções de Filtro](../assets/protocol_filter_options.png)
+  - **`!!`** → significa *diferente de* (exclui um termo).  
+  - **`&&`** → significa *condições paralelas* (combinação de termos).  
 
----
-
-### 8. Fixar linha do protocolo
-Bloqueie a linha de protocolo para mantê-la visível em múltiplos canais.
-
-![Fixar Linha de Protocolo](../assets/protocol_lock_line.png)
-
----
-
-### 9. Exibir múltiplos protocolos
-O software permite sobrepor e exibir simultaneamente diferentes protocolos.
-
-![Exibição de Múltiplos Protocolos](../assets/protocol_multi_display.png)
-
----
-
-## Benefícios
-- **Análise rápida** de protocolos seriais comuns.  
-- **Flexibilidade** com filtros e seleção de regiões.  
-- **Comparação** de múltiplos protocolos em uma mesma captura.  
-
-✅ Essa funcionalidade é essencial para depuração de sistemas embarcados e análise de comunicação digital.
+  **Exemplo:**  
+  Se for necessário buscar dados de texto que contenham `"alientek"` mas **não**
+  contenham `"stop"`, a expressão será:  
+  ```
+  alientek&&!!stop
+  ```
+  
+⚠️ **Observação:** essa pesquisa é **sensível a símbolos e espaços**, portanto
+a expressão deve ser escrita exatamente como esperado.
