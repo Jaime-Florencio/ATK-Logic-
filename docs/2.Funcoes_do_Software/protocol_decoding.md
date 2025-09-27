@@ -41,10 +41,27 @@ Os campos disponíveis têm a seguinte função:
 
 ---
 
-### 3. Mapeamento de canais
-Associe os sinais do protocolo (ex.: SDA/SCL, MOSI/MISO/CLK, RX/TX) aos canais do analisador lógico.
+### 3. Decoded Data Display
+![UART decoded data table](../assets/protocol_uart_decoded_table.png)
+
+**Detalhe da tabela de dados:**  
+Além da sobreposição direta dos caracteres no sinal (RX/TX data), o ATK-Logic apresenta cada evento em uma lista organizada chamada **Data Interface**.  
+
+Essa tabela exibe:  
+- **Start** → instante exato de início do bit ou caractere.  
+- **Time** → duração do bit/intervalo.  
+- **Type** → se é RX ou TX, e se corresponde a bits ou dados.  
+- **Data** → conteúdo interpretado (por exemplo: `Start bit`, `1`, `0`, ou caracteres ASCII).  
+
+🔎 Essa visão detalhada é útil para depuração precisa, pois permite correlacionar o tempo exato de cada bit com a representação lógica e os caracteres recebidos/enviados.
+
 
 ![Mapeamento de Canais](../assets/protocol_channel_mapping.png)
+
+- **Especificar região de decodificação**:  
+  Na interface **Protocol Settings**, na parte inferior, é possível definir a região
+  de decodificação dos dados configurando os marcadores *Start* e *End*.  
+  Isso ajuda a economizar tempo ao limitar a análise apenas ao trecho desejado.  
 
 ---
 
