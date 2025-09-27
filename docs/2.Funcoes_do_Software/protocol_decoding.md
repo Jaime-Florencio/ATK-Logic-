@@ -128,3 +128,44 @@ Essa tabela exibe:
   
 ⚠️ **Observação:** essa pesquisa é **sensível a símbolos e espaços**, portanto
 a expressão deve ser escrita exatamente como esperado.
+
+### 4. Tips and Small Features
+
+O software **ATK-Logic** oferece uma série de recursos adicionais que ajudam a
+otimizar a análise, simplificar a interface e tornar a experiência de uso mais
+eficiente.  
+Além disso, existem informações de suporte e ferramentas extras para configuração
+e desenvolvimento de protocolos.
+
+---
+
+#### 4.1 Protocol Settings
+
+O **ATK-Logic** suporta mais de **170 protocolos**.  
+Para ajudar os usuários a compreender rapidamente os parâmetros de configuração
+de cada protocolo, está disponível uma documentação online com detalhes completos:
+
+🔗 **Documentação Online:**  
+[ATK-Logic Protocol Documentation](http://www.openedv.com/ATK-Prod/ATK-Logic/docs/index.html)
+
+> ℹ️ Observação: a documentação online será continuamente atualizada, incluindo novos protocolos e ajustes de parâmetros.
+
+---
+
+#### 4.2 Custom Protocol Development
+
+Embora o software suporte mais de **170 decodificadores de protocolos**
+comumente utilizados, ainda pode não atender às necessidades específicas de alguns usuários.  
+Por esse motivo, disponibilizamos um guia para auxiliar na **adição de novos protocolos personalizados**.
+
+🔗 **Documentação Online para Desenvolvimento Secundário:**  
+[Custom Protocol Development Guide](http://www.openedv.com/ATK-Prod/ATK-Logic/docs/index.html)
+
+> ℹ️ Observação: a documentação online é atualizada de forma contínua, garantindo suporte às novas demandas de protocolos.
+
+---
+
+#### 4.3 Protocol Debugging
+
+*(Aqui vamos detalhar as dicas e recursos de depuração de protocolos — se você me passar o trecho correspondente do manual, eu já monto essa subseção).*
+
