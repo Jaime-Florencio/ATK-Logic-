@@ -11,6 +11,7 @@ Na barra lateral direita do software, clique em **Protocol Decoding → Protocol
 Será exibida a lista de protocolos suportados. Passe o mouse sobre cada um para ver a descrição,  
 ou clique no nome para abrir a interface de configuração.
 ![Ícone para adicionar protocolo](../assets/protocol_add_icon.png)
+
 ![Ícone para adicionar protocolo](../assets/protocol_selection_uart.png)
 
 ---
