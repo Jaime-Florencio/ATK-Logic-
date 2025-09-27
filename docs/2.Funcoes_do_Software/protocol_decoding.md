@@ -12,14 +12,15 @@ Será exibida a lista de protocolos suportados. Passe o mouse sobre cada um para
 ou clique no nome para abrir a interface de configuração.
 
 ![Ícone para adicionar protocolo](../assets/protocol_add_icon.png)
+![Ícone para adicionar protocolo](../assets/protocol_selection_uart.png)
 
 ---
 
 ### 2. Configuração inicial do protocolo
 Selecione o protocolo desejado (ex.: UART, I²C, SPI, CAN) e defina as opções básicas.
 
-Na janela **Protocol Settings**, é possível ajustar os parâmetros para decodificar corretamente sinais seriais do tipo **UART**.  
-Cada campo tem a seguinte função:
+Quando selecionamos o protocolo desejado (por exemplo, **UART**), a janela **Protocol Settings** é exibida, permitindo configurar os parâmetros necessários para a decodificação.  
+Os campos disponíveis têm a seguinte função:
 
 - **RX (UART receive line)** → Canal usado para **receber dados**. Selecione qual canal do analisador lógico está conectado ao pino **RX** do dispositivo.  
 - **TX (UART transmit line)** → Canal usado para **transmitir dados**. Selecione o canal conectado ao pino **TX** do dispositivo. Pode ficar em branco se for apenas recepção.  
@@ -36,7 +37,6 @@ Cada campo tem a seguinte função:
   - **OK** confirma as configurações e adiciona o protocolo à lista ativa.  
 
 ![Janela de configuração do protocolo UART](../assets/protocol_settings_window.png)
-
 
 ---
 
