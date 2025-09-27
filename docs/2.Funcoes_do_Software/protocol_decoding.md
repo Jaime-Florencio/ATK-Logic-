@@ -23,6 +23,8 @@ Selecione o protocolo desejado (ex.: UART, I²C, SPI, CAN) e defina as opções 
 Quando selecionamos o protocolo desejado (por exemplo, **UART**), a janela **Protocol Settings** é exibida, permitindo configurar os parâmetros necessários para a decodificação.  
 Os campos disponíveis têm a seguinte função:
 
+![Janela de configuração do protocolo UART](../assets/protocol_selection_uart_UART2.png)
+
 - **RX (UART receive line)** → Canal usado para **receber dados**. Selecione qual canal do analisador lógico está conectado ao pino **RX** do dispositivo.  
 - **TX (UART transmit line)** → Canal usado para **transmitir dados**. Selecione o canal conectado ao pino **TX** do dispositivo. Pode ficar em branco se for apenas recepção.  
 - **Baud rate** → Taxa de transmissão em **bits por segundo (bps)**. Ex.: 9600, 115200. Deve coincidir com o dispositivo.  
@@ -36,8 +38,6 @@ Os campos disponíveis têm a seguinte função:
 - **Botões (Cancel / OK)** →  
   - **Cancel** descarta as alterações.  
   - **OK** confirma as configurações e adiciona o protocolo à lista ativa.  
-
-![Janela de configuração do protocolo UART](../assets/protocol_selection_uart_UART2.png)
 
 ---
 
