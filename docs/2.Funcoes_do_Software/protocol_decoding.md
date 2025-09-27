@@ -37,7 +37,7 @@ Os campos disponíveis têm a seguinte função:
   - **Cancel** descarta as alterações.  
   - **OK** confirma as configurações e adiciona o protocolo à lista ativa.  
 
-![Janela de configuração do protocolo UART](../assets/protocol_settings_window.png)
+![Janela de configuração do protocolo UART](../assets/protocol_selection_uart (UART).png)
 
 ---
 
